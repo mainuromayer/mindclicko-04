@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #fff;
   height: 200vh;
   position: relative;
@@ -27,25 +27,28 @@ body.offcanvas-menu:before {
 
 p {
   color: #707070;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
-
-
-h1, .h1, h2, .h2 {
-  font-family: 'Montserrat', sans-serif; 
+h1,
+.h1,
+h2,
+.h2 {
+  font-family: "Montserrat", sans-serif;
 }
 
-h3, .h3, h4, .h4 {
-  font-family: 'Open Sans', sans-serif;
+h3,
+.h3,
+h4,
+.h4 {
+  font-family: "Open Sans", sans-serif;
 }
 
-
-h4, .h4 {
-	font-size: 1.5rem;
-	font-weight: 700;
+h4,
+.h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-
 
 a {
   -webkit-transition: 0.3s all ease;
@@ -57,20 +60,12 @@ a:hover {
   text-decoration: none !important;
 }
 
-.hero {
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 .top-bar {
   padding: 0.5rem 0;
   background: #eee;
 }
 .top-bar a {
-  color: #184CA1;
+  color: #184ca1;
   font-weight: 600;
 }
 
@@ -101,7 +96,6 @@ a:hover {
   z-index: 3;
 }
 
-
 .site-navbar .site-navigation.border-bottom {
   border-bottom: 1px solid white !important;
 }
@@ -109,7 +103,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active {
-  color: #184CA1 !important;
+  color: #184ca1 !important;
 }
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
@@ -129,7 +123,7 @@ a:hover {
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #184CA1;
+  color: #184ca1;
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -156,7 +150,7 @@ a:hover {
   top: 100%;
   position: absolute;
   text-align: left;
-  border-top: 2px solid #184CA1;
+  border-top: 2px solid #184ca1;
   -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
   padding: 0px 0;
@@ -204,7 +198,7 @@ a:hover {
   color: #000 !important;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-  color: #184CA1 !important;
+  color: #184ca1 !important;
   background: #f8f9fa;
 }
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -281,7 +275,7 @@ a:hover {
 .site-navbar .site-navigation .site-menu .has-children:hover > a,
 .site-navbar .site-navigation .site-menu .has-children:focus > a,
 .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #184CA1;
+  color: #184ca1;
 }
 .site-navbar .site-navigation .site-menu .has-children:hover,
 .site-navbar .site-navigation .site-menu .has-children:focus,
@@ -380,15 +374,17 @@ a:hover {
   position: relative;
   color: #212529;
 }
+/* ---------- */
 .site-mobile-menu .site-nav-wrap a:hover {
   color: #184CA1;
 }
+/* ---------- */
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
   display: block;
 }
 .site-mobile-menu .site-nav-wrap li .nav-link.active {
-  color: #184CA1;
+  color: #184ca1;
 }
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
   position: absolute;
@@ -431,13 +427,17 @@ a:hover {
   width: 100%;
 }
 
+/* ---------- */
 .site-mobile-menu .site-nav-wrap > li > a {
-	padding-left: 91px;
 	font-size: 20px;
-	border: 0.5px solid #fff;
-	background: #184CA1;
-	color: #fff;
+	border: 0.5px solid #70707036;
+	color: #184CA1;
+	text-align: center;
+	margin: 2px;
+	border-radius: 10px;
+	line-height: 20px;
 }
+/* ---------- */
 
 .site-mobile-menu .site-nav-wrap > li > ul {
   padding: 0;
@@ -488,11 +488,9 @@ a:hover {
 .sticky-wrapper .site-navbar {
   background: #fff;
 }
-.sticky-wrapper .site-navbar .site-logo a {
-  color: #fff;
-}
+
 .sticky-wrapper .site-navbar ul li a {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: #184ca1 !important;
 }
 .sticky-wrapper .site-navbar ul li a.active {
   color: #fff !important;
@@ -503,7 +501,7 @@ a:hover {
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #184CA1;
+  color: #184ca1;
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a {
@@ -511,27 +509,22 @@ a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-  color: #184CA1 !important;
+  color: #184ca1 !important;
 }
 .sticky-wrapper .shrink {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 
-
-
-
 /* ================================================ */
 
 .orange-yellow {
-  color: #FFD139;
+  color: #ffd139;
 }
 
-.tarkish-blue{
-  color: #184CA1;
+.tarkish-blue {
+  color: #184ca1;
 }
-
-
 
 /* ================ MAIN =============== */
 main {
